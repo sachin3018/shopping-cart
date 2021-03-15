@@ -6,7 +6,7 @@ import Product from './Product';
 
 const Buysection = ({addInCart}) => {
     const [product,setProduct] = useState([])
-    const client = createClient('563492ad6f91700001000001dd097c79d91e4c988a9988539f21b3ca');
+    const client = createClient('563492ad6f91700001000001ba20f9f630a54d33bc12cec994f91d28');
     const query = 'sports car';
 
     useEffect(() => {
