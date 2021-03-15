@@ -11,7 +11,7 @@ const Buysection = ({addInCart}) => {
 
     useEffect(() => {
         getProduct()
-    },[])
+    })
 
     const getProduct = async() => {
         console.log(random.number(10));
