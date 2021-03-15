@@ -1,3 +1,10 @@
+body {
+  background-color: #282c34;
+}
+h3{
+  color: aliceblue;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +12,10 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.text {
+  color: aliceblue;
 }
 
 @media (prefers-reduced-motion: no-preference) {
