@@ -12,12 +12,6 @@ import {
 } from "reactstrap";
 
 const Cart = ({ cartItem, removeItem, buyNow }) => {
-  let amount = 0;
-
-  cartItem.forEach(item => {
-    amount = parseFloat(amount) + parseFloat(item.price);
-  });
-
   return (
     <div className="text-center">
             <div className="bg-info p-3">
@@ -47,7 +41,7 @@ const Cart = ({ cartItem, removeItem, buyNow }) => {
         <Card className="text-center mt-3 bg-dark">
           <CardHeader className="text">Grand Total</CardHeader>
           <CardBody className="text">
-            Your amount for {cartItem.length} product is {amount}
+            Your cart have {cartItem.length}
           </CardBody>
           <CardFooter>
             <Button color="success" onClick={buyNow}>
