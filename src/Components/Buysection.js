@@ -22,8 +22,6 @@ const Buysection = ({addInCart}) => {
             const product = data.map(item => ({
                 medium : item.src.medium,
                 tiny : item.src.tiny,
-                productName : commerce.productName(),
-                price : commerce.price(),
                 id : random.uuid()
             }))
             setProduct(product)
