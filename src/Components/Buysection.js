@@ -1,5 +1,5 @@
 import React,{ useState, useEffect } from 'react'
-import { random, commerce } from "faker";
+import { random } from "faker";
 
 import { createClient } from "pexels";
 import Product from './Product';
